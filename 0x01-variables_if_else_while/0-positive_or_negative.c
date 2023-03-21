@@ -5,10 +5,9 @@
 /**
  * main - Entry point
  * Description: Assigns a random number to the variable n and prints
- * whether it's positive or negative
+ * 
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
         int n;
