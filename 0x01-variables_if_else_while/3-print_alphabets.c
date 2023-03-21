@@ -1,16 +1,23 @@
 #include <stdio.h>
 
-int main(void) {
-    char c = 'a';
-    do {
-        putchar(c);
-        c++;
-    } while (c <= 'z');
-    c = 'A';
-    do {
-        putchar(c);
-        c++;
-    } while (c <= 'Z');
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    char letter;
+
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
+        putchar(letter);
+    }
+    for (letter = 'A'; letter <= 'Z'; letter++)
+    {
+        putchar(letter);
+    }
     putchar('\n');
-    return 0;
+
+    return (0);
 }
